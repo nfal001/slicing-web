@@ -67,7 +67,7 @@ body {
   text-align: center;
 }
 .twer {
-  width: 768px;
+  max-width: 768px;
   font-size: 25px;
   color: #313131;
 }
@@ -121,6 +121,7 @@ body {
 }
 
 .titik2 {
+  z-index: -5;
   position: absolute;
   width: 187px;
   height: 180px;
@@ -128,6 +129,7 @@ body {
   top: 757px;
 }
 .titik {
+  z-index: -4;
   position: absolute;
   width: 112px;
   height: 110px;
